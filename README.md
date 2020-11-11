@@ -1,5 +1,15 @@
 # Complex Recommendation Google Form
 
+## Problem statement
+
+### Problem #1: Automate the creation of a Form from a Spreadsheet
+
+Google Forms are painful to do when the questionnaire is big. this project proposes a way to create a Google Form from a Google spreadsheet.
+
+### Problem #2: Treat automatically the responses with complex business rules at the end of the questionnaire
+
+A trigger is added when the response spreadsheet is filled. This trigger calculates the recommendation and sends an email to the one that filled the questionnaire.
+
 ## Overview
 
 The following schema explains the various Google Workspace objects that are required to create this complex form.
