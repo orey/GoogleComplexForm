@@ -89,14 +89,14 @@ function opened(str){
  * This function creates a form based on the spreadsheet ID and the formname
  * Warning: The ojects need to have permissions.
  */
-function createFormFromSpreadsheet(new = false){
+function createFormFromSpreadsheet(create = false){
     let ss = SpreadsheetApp.openById(CONFIG_SS_ID);
     console.log("Name of the parameter spreadsheet: " + ss.getName());
   
     // Create a new form, then add a checkbox question, a multiple choice question,
     // a page break, then a date question and a grid of questions.
     let form;
-    if (new)
+    if (create)
         form = FormApp.create(FORM_NAME + " - Version " + FORM_VERSION);
     else
         form = FormApp.openById(FORM_ID);
