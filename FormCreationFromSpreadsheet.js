@@ -1,7 +1,6 @@
 /*==============================================================
  * Script to create a form from a meta description stored in a
  * Google spreadsheet.
- * This code erases the form previously created.
  * Author: O. Rey
  * Version: 1.0
  * Licence: GPL v3

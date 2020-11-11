@@ -29,5 +29,10 @@ The specifications were the following:
 
 In order to work, the script makes the assumptions that the configuration spreadsheet has 5 columns, and that the data start in line 2. In the header of the script, you will be able to provide your document IDs (currently, the document IDs are mine but they are declared as constants in the beginning of the script file.
 
+## To do
 
+* Implement the controls that are not implemented (`ListItem` for instance).
+* Manage the controls that can influence navigation, especially those who have the `createChoice(value, navigationItem)` API:
+  * `ListItem`
+  * `MultipleChoiceItem` that is a strange name for radio buttons.
 
