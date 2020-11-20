@@ -35,4 +35,8 @@ In order to work, the script makes the assumptions that the configuration spread
 * Manage the controls that can influence navigation, especially those who have the `createChoice(value, navigationItem)` API:
   * `ListItem`
   * `MultipleChoiceItem` that is a strange name for radio buttons.
+  
+## Doc
+
+https://developers.google.com/apps-script/reference
 
